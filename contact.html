@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+<!-- navbar -->
+<nav>
+    <ul>
+          <li class="active"><a href="./index.html">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="./team.html">Team</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+
+    </ul>
+    <div class="button">
+          <a class="btn-open" href="#"></a>
+    </div>
+</nav>
+    <div class="overlay">
+          <div class="wrap">
+                <span><i class="fas fa-times" id="close"></i></span>
+                        <ul class="wrap-nav">
+                            <li><a href="#">About</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">About Company</a></li>
+                                <li><a href="#">Designers / Developers</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#">Services</a>
+                            <ul class="sub-menu">
+                                <li><a href="https://www.google.hr/">Web Design</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Graphic design</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#">Team</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Infos</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                        <div class="social">
+                            <a href="https://www.facebook.com/devugees/" target="_blank">
+                            <div class="social-icon">
+                                        <i class="fab fa-facebook-f"></i>                              </div>
+                            </a>
+                            <a href="https://digitalcareerinstitute.org/jobcenter-afa/hamburg/" target="_blank">
+                            <div class="social-icon">
+                                        <i class="fas fa-globe-americas"></i>                              </div>
+                            </a>
+                            <a href="https://www.linkedin.com/company/dci-institute-gmbh/" target="_blank">
+                            <div class="social-icon">
+                                        <i class="fab fa-linkedin-in"></i>                              </div>
+                            </a>
+                            <p>
+                                From: Hamburg, Germany<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        <div id="myMap"></div>
+        <script src="./map/map.config.js"></script>
+        <!-- link to google map with ahmad key -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLOKCxtRd_pEqn4_1eD2WjVXdtS8V4p3s&callback=initMap"
+        async defer></script>
+    
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <header class="ccheader">
+        <h1>HTML5 Contact Form</h1>	
+    </header>
+    <div class="wrapper">
+        <form method="post" action="" class="ccform">
+        <div class="ccfield-prepend">
+            <span class="ccform-addon"><i class="fa fa-user fa-2x"></i></span>
+            <input class="ccformfield" type="text" placeholder="Full Name" required>
+        </div>
+        <div class="ccfield-prepend">
+            <span class="ccform-addon"><i class="fa fa-envelope fa-2x"></i></span>
+            <input class="ccformfield" type="text" placeholder="Email" required>
+        </div>
+        <div class="ccfield-prepend">
+            <span class="ccform-addon"><i class="fa fa-mobile-phone fa-2x"></i></span>
+            <input class="ccformfield" type="text" placeholder="Phone">
+        </div>
+         <div class="ccfield-prepend">
+            <span class="ccform-addon"><i class="fa fa-info fa-2x"></i></span>
+            <input class="ccformfield" type="text" placeholder="Subject" required>
+        </div>
+        <div class="ccfield-prepend">
+            <span class="ccform-addon"><i class="fa fa-comment fa-2x"></i></span>
+            <textarea class="ccformfield" name="comments" rows="8" placeholder="Message" required></textarea>
+        </div>
+        <div class="ccfield-prepend">
+            <input class="ccbtn" type="submit" value="Submit">
+        </div>
+        </form>
+    </div>
+     <div class="credit">
+<a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im VipulM.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+    <span class="wrap"></span>
+  </a>    </div> 
+    
+      
+     
+</body>
+</html>
