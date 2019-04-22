@@ -1854,7 +1854,7 @@ transition: all 1s
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 .ccheader {
-      background-color:rgb(225, 86, 94)  ;
+      background-color:rgb(167, 152, 153)  ;
 	margin: 0 auto;
 	padding: 2em;
 	text-align: center;
@@ -1890,7 +1890,7 @@ transition: all 1s
 }
 
 .ccform-addon{
-	color:#f8ae45; 
+	color:rgb(225, 86, 94); 
 	/* float:left; */
 	padding:15px;
 	width:8%;
@@ -1944,7 +1944,7 @@ font-weight: bold;
 text-decoration: none;
 }
 .wrapper{
-      background-color:rgb(225, 86, 94)  
+      background-color:rgb(167, 152, 153)  
 }
 
 /* making pages responsive  */
@@ -2046,9 +2046,159 @@ color:black!important;
          font-size: 3em;
       }
    }
+   /* gallery */
+   #demo {
+      height:100%;
+      position:relative;
+      overflow:hidden;
+    }
+    
+    
+    .green{
+      background-color:#6fb936;
+    }
+            .thumb{
+                margin-bottom: 30px;
+            }
+            
+            .page-top{
+                margin-top:85px;
+            }
+    
+       
+    img.zoom {
+        width: 100%;
+        height: 200px;
+        border-radius:5px;
+        object-fit:cover;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+    }
+            
+     
+    .transition {
+        -webkit-transform: scale(1.2); 
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+        .modal-header {
+       
+         border-bottom: none;
+    }
+        .modal-title {
+            color:#000;
+        }
+        .modal-footer{
+          display:none;  
+        }
+       
+        /* SwiperMDB*/
+  
+        .imageContainer{
+      
+   
+          height: 700px;
+          width: 1600px;
+      }
+      .wow {
+          visibility: hidden;
+          margin-right: 20px;
+          width:500px;
+          height: 300px;
+          outline: 3px solid white;
+          transition: transform .2s;
+        }
+      .bild1:hover{
+         
+      transform: scale(1.5);
+      }
 
+        .swiper-container {
+          width: 100%;
+          height: 530px;
+          padding-top: 50px;
+          padding-bottom: 50px;
+        }
+         .swiper-slide {
+          background-position: center;
+          background-size: cover;
+          width: 300px;
+          height:300px;
+        }
+        .swiper-slide img {
+      
+            width: 300px;
+            height: 300px;
+        }
+      
+      .swiper-pagination{
+      bottom: 2rem;
+      };
+      
+      .zoom-img{
+        margin-top: 83%;
+        top: 0;
+        left: 0;
+      }
+    
+/* about section services */
 
+#services {
+      background: #f8f9fa; 
+}
+    
+    .service-block {
+      padding: 20px; 
+}
 
+      .service-block .icon {
+        color: rgb(229, 45, 100);
+        font-size: 40px;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+        -webkit-transition: all .3s ease-out;
+        -o-transition: all .3s ease-out;
+        transition: all .3s ease-out; 
+        margin-top: 1.5rem;
+      }
+      .service-block .service-icon-animate {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0); 
+      }
+    .service-block h3{
+      font-family: 'Pacifico', cursive;
+      margin-top: 0.5rem; 
+    }
+    .hb:nth-child(1), .hb:nth-child(2), .hb:nth-child(3) {
+      border-bottom: 1px #a3a3a3 solid; }
+    
+    @media screen and (max-width: 991px) {
+      .hb:nth-child(-n+4) {
+        border-bottom: 1px #a3a3a3 solid; } }
+    
+    @media screen and (max-width: 768px) {
+      .hb:nth-child(5) {
+        border-bottom: 1px #a3a3a3 solid; } }
+    
+    .vb:nth-child(1), .vb:nth-child(2), .vb:nth-child(4), .vb:nth-child(5) {
+      border-right: 1px #a3a3a3 solid; }
+    
+    @media screen and (max-width: 991px) {
+      .vb:nth-child(1), .vb:nth-child(2), .vb:nth-child(4), .vb:nth-child(5) {
+        border-right: none; }
+      .vb:nth-child(2n+1) {
+        border-right: 1px #a3a3a3 solid; } }
+    
+    @media screen and (max-width: 768px) {
+      .vb:nth-child(-n+6) {
+        border-right: none; } }
+    
    /* footer */
    footer{
       background-color: #000; 
