@@ -2103,14 +2103,14 @@ color:black!important;
           height: 700px;
           width: 1600px;
       }
-      .wow {
+      /* .wow {
           visibility: hidden;
           margin-right: 20px;
           width:500px;
           height: 300px;
           outline: 3px solid white;
           transition: transform .2s;
-        }
+        } */
       .bild1:hover{
          
       transform: scale(1.5);
